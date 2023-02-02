@@ -32,7 +32,7 @@ int NumberRowMinSumElements(int[,] array)
         }
         sumRow = 0;
     }
-    return (minSumRow+1);
+    return (minSumRow+1); //нумерация строк будет начинаться с 1, а не с 0
 }
 
 int[,] GetArray(int m, int n, int minValue, int maxValue)
